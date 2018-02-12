@@ -32,18 +32,11 @@ If you'd like to enjoy the power and flexibility of cloud computing, you can spi
 
 ## Windows
 
-These steps are for users who installed the [Anaconda](https://www.continuum.io/downloads) Python 3 distribution, but other such distributions (e.g., [WinPython](https://winpython.github.io/), [Canopy](https://store.enthought.com/downloads/)) should work too. 
+Community members have kindly contributed several different sets of Windows installation instructions, each suited to a different use-case: 
 
-#### Install TensorFlow for CPU
-
-1. Create a conda virtual environment: `C:\> conda create -n tf python=3.5`
-2. Activate the new environment: `C:\> activate tf`. Your prompt should now change to: `(tf) C:\>`
-3. Run `(tf) C:\> pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.2.1-cp35-cp35m-win_amd64.whl`.
-
-#### Running Dockerized Jupyter Notebooks
-
-*Currently, instructions for running the these LiveLessons' Jupyter notebooks from within a Docker container are unavailable on Windows. If you have experience doing this, please feel free to make a pull request and fill it in!* 
-
+1. If you have a 64-bit installation of Windows 10 Professional or Enterprise, you can follow the [full Docker container installation](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_Windows_Docker_install.md), which will ensure that you have all the dependencies. 
+2. If you've never heard of *Anaconda* as being anything other than a snake, you can follow the simple step-by-step instructions [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/simple_Windows_Anaconda_install.md). 
+3. If you already have Anaconda or a similar Python 3 distribution set up on your machine (e.g., WinPython, Canopy), then you can install TensorFlow in a virtual environment as outlined [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/conda_TensorFlow_install.md).
 
 ## GPU Considerations
 
